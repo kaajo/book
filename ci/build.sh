@@ -53,3 +53,5 @@ echo 'Building 2018 edition...'
 mdbook build
 echo 'Linting 2018 edition for local file paths...'
 cargo run --bin lfp src
+echo 'Generating .epub and .html files for 2018 edition'
+crowbook crowbook.book

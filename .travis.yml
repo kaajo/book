@@ -14,5 +14,6 @@ addons:
       - aspell-en
 before_script:
   - (cargo install mdbook --vers 0.1.7 --force || true)
+  - (cargo install crowbook --vers 0.14.1 --force || true)
 script:
   - bash ci/build.sh
