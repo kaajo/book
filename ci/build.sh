@@ -27,6 +27,8 @@ echo 'Testing first edition...'
 mdbook test
 echo 'Building first edition...'
 mdbook build
+echo 'Generating .epub and .html files for first edition'
+crowbook crowbook.book
 
 cd ..
 
@@ -40,6 +42,8 @@ echo 'Building second edition...'
 mdbook build
 echo 'Linting second edition for local file paths...'
 cargo run --bin lfp src
+echo 'Generating .epub and .html files for second edition'
+crowbook crowbook.book
 
 cd ..
 
