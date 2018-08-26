@@ -21,4 +21,4 @@ deploy:
   local-dir: books/
   target-branch: e-books
   on:
-    branch: crowbook
+    branch: master
