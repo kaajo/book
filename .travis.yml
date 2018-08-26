@@ -18,10 +18,6 @@ deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
-  file_glob: true
-  file:
-    - first-edition/trpl-2018.*
-    - second-edition/trpl-2018.*
-    - 2018-edition/trpl-2018.*
+  local-dir: books/
   on:
     branch: crowbook

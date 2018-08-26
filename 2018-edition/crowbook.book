@@ -1,3 +1,5 @@
+#from https://github.com/kaajo/Rust-books
+
 title: "The Rust Programming Language - 2018 edition"
 author: "Steve Klabnik and Carol Nichols, with Contributions from the Rust Community"
 lang: en
@@ -10,7 +12,7 @@ rendering.num_depth: 2
 rendering.inline_toc: true
 
 resources.base_path.images: src/
-output.base_path: .
+output.base_path: ../books/
 
 output.html: trpl-2018.html
 output.epub: trpl-2018.epub

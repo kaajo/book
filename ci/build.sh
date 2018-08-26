@@ -21,6 +21,9 @@ cargo run -- ../../2018-edition/src
 
 cd ../..
 
+# create directory for deploy
+mkdir books
+
 # tests for the first edition
 cd first-edition
 echo 'Testing first edition...'

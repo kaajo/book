@@ -1,3 +1,5 @@
+# from https://github.com/lise-henry/books
+
 title: The Rust Programming Language
 author: The Rust Project Developpers
 lang: en
@@ -9,11 +11,10 @@ tex.links_as_footnotes: false
 rendering.num_depth: 1
 rendering.inline_toc: true
 
-output.base_path: .
+output.base_path: ../books/
 
 output.html: trpl1.html
 output.epub: trpl1.epub
-#output.pdf: trpl1.pdf
 
 @ Introduction
 + src/README.md
@@ -78,4 +79,3 @@ output.epub: trpl1.epub
 + src/glossary.md
 + src/syntax-index.md
 + src/bibliography.md
-
