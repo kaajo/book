@@ -19,5 +19,6 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   local-dir: books/
+  target-branch: e-books
   on:
     branch: crowbook
