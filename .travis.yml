@@ -14,3 +14,14 @@ before_script:
   - (cargo install crowbook --vers 0.14.1 --force || true)
 script:
   - bash ci/build.sh
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $github-token
+  file_glob: true
+  file:
+    - first-edition/trpl-2018.*
+    - second-edition/trpl-2018.*
+    - 2018-edition/trpl-2018.*
+  on:
+    branch: crowbook
