@@ -36,10 +36,9 @@
 
 ## Basic Rust Literacy
 
-- [Modules](ch07-00-modules.md)
-    - [`mod` and the Filesystem](ch07-01-mod-and-the-filesystem.md)
-    - [Controlling Visibility with `pub`](ch07-02-controlling-visibility-with-pub.md)
-    - [Referring to Names in Different Modules](ch07-03-importing-names-with-use.md)
+- [Packages, Crates, and Modules](ch07-00-packages-crates-and-modules.md)
+    - [Packages and crates for making libraries and executables](ch07-01-packages-and-crates-for-making-libraries-and-executables.md)
+    - [Modules and `use` to control scope and privacy](ch07-02-modules-and-use-to-control-scope-and-privacy.md)
 
 - [Common Collections](ch08-00-common-collections.md)
     - [Vectors](ch08-01-vectors.md)
@@ -116,6 +115,7 @@
     - [Advanced Traits](ch19-03-advanced-traits.md)
     - [Advanced Types](ch19-04-advanced-types.md)
     - [Advanced Functions & Closures](ch19-05-advanced-functions-and-closures.md)
+    - [Macros](ch19-06-macros.md)
 
 - [Final Project: Building a Multithreaded Web Server](ch20-00-final-project-a-web-server.md)
     - [A Single Threaded Web Server](ch20-01-single-threaded.md)
@@ -126,7 +126,7 @@
     - [A - Keywords](appendix-01-keywords.md)
     - [B - Operators and Symbols](appendix-02-operators.md)
     - [C - Derivable Traits](appendix-03-derivable-traits.md)
-    - [D - Macros](appendix-04-macros.md)
-    - [E - Translations](appendix-05-translation.md)
-    - [F - How Rust is Made and “Nightly Rust”](appendix-06-nightly-rust.md)
-    - [G - Other useful tools](appendix-07-other-useful-tools.md)
+    - [D - Useful Development Tools](appendix-04-useful-development-tools.md)
+    - [E - Editions](appendix-05-editions.md)
+    - [F - Translations](appendix-06-translation.md)
+    - [G - How Rust is Made and “Nightly Rust”](appendix-07-nightly-rust.md)
