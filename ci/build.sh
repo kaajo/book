@@ -8,13 +8,16 @@
 # option. This file may not be copied, modified, or distributed
 # except according to those terms.
 
+#!/bin/bash
+
 set -e
 
 export PATH=$PATH:/home/travis/.cargo/bin;
 
-# feature check
+# Feature check
 cd ci/stable-check
 
+cargo run -- ../../src
 cargo run -- ../../first-edition/src
 cargo run -- ../../second-edition/src
 cargo run -- ../../2018-edition/src
